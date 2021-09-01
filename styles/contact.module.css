@@ -1,0 +1,152 @@
+/* Small screens - MOBILE */
+@media only screen { 
+
+
+    .contact {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: var(--primary-color);
+    }
+    
+    .headtitle {
+       
+        color: var(--background-color);
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .contact p{
+        color: var(--background-color);
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    
+    .contact_links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 50px;
+        
+    }
+    
+    .links:hover {
+        border-radius: 12px;
+        padding: 10px 10px;
+        background-color:var(--secondary-color);
+    }
+    
+    .links{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .links p {
+    
+        font-size:0.5rem;
+        margin-top:10px;
+    
+        
+    }
+    
+    
+    .iconLinks{
+    
+        width:2em;
+        height:2em;
+        fill:var(--background-color);
+    }
+    
+    
+    
+    .form{
+    
+        border-radius: 12px;
+        margin:0px 18px;
+        margin-bottom: 40px;
+        background-color: var(--background-color);
+    }
+
+    
+
+} 
+
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) { 
+
+    .headtitle {
+       
+        color: var(--background-color);
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    
+    .contact p{
+        color: var(--background-color);
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    
+    .contact_links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 50px;
+    }
+    
+    .links:hover {
+        border-radius: 12px;
+        padding: 10px 10px;
+        background-color:var(--secondary-color);
+    }
+    
+    .links{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .links p {
+    
+        font-size:0.8rem;
+        margin-top:10px;
+    }
+    
+    
+    .iconLinks{
+    
+        width:2em;
+        height:2em;
+        fill:var(--background-color);
+    }
+    
+    
+    
+    .form{
+    
+        border-radius: 12px;
+        margin:0px 50px;
+        margin-bottom: 40px;
+        background-color: var(--background-color);
+    }
+
+}

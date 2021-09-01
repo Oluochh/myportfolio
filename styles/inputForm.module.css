@@ -1,0 +1,107 @@
+/* Small screens - MOBILE */
+@media only screen {
+
+.inputField{
+
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+  
+}
+
+.inputField label {
+
+    font-size: 0.9rem;
+    margin:6px 0;
+    text-transform: capitalize;
+    font-family: var(--header-font);
+
+}
+
+
+ .input {
+
+   padding: 12px 47px;
+   border-radius:8px;
+   border: 2px solid #c4c4c4;
+   
+
+}
+ 
+.input:hover {
+    outline: none;
+}
+
+ 
+ .input:hover {
+ 
+    border-radius:10px;
+    border:2px solid var(--secondary-color);
+ }
+
+
+
+.inputIcons {
+
+
+    position: absolute;
+    padding: 4px;
+    margin-top: 2px;
+
+}
+
+
+
+
+ }
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) {
+
+
+.inputField{
+
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.inputField label {
+
+    font-size: 1rem;
+    margin:10px 0;
+    text-transform: capitalize;
+    font-family: var(--header-font);
+
+}
+
+
+.input {
+
+   padding: 15px 70px;
+   border-radius:10px;
+   border: 2px solid #c4c4c4;
+
+}
+
+.input:hover {
+ 
+    border-radius:10px;
+    border:2px solid var(--secondary-color);
+ }
+
+
+
+.inputIcons {
+
+
+    position: absolute;
+    padding: 9px;
+    height: 2em;
+
+}
+
+
+
+
+ }

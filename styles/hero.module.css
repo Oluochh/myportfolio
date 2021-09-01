@@ -1,0 +1,199 @@
+/* mobile first */
+@media only screen {
+
+
+    .hero_image {
+        background-image: url(../public/gillian.png);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .hero h1 {
+     
+        font-size: 1em; 
+        padding: 30px 0  0 20px;
+        font-family: var(--body-font);
+        
+    }
+
+    .heart {
+        fill: var(--secondary-color);
+        position:relative;
+        height: 1em;
+        width:1em;
+        top: 3px;
+    }
+
+    .gillian {
+        position: relative;
+        bottom: 100px;
+        padding: 0 0 0 20px;
+        height: 22em;
+        width: 23em;
+        
+    }
+
+    .heroinfo p {
+        
+        position: relative;
+        font-size: 1.1em;
+        bottom: 210px;
+        padding: 0 20px ;
+
+    }
+
+    .heroinfo p span {
+        color: var(--secondary-color);
+    }
+
+    .btn {
+       position: absolute;
+       left: 20px;
+       border: none;
+       font-size: 1.5em;
+       bottom: -450px;
+       text-align: center;
+       padding: 18px 40px;
+       text-transform: capitalize;
+       color: var(--background-color);
+       background-color:var(--secondary-color);
+       
+
+    }
+
+
+
+@media only screen and (max-width: 40em) { 
+
+    .gillian {
+        position: relative;
+        bottom: 90px;
+        padding: 0 0 0 20px;
+        height: 24em;
+        width: 29em;
+        
+    }
+
+    .heroinfo p {
+        
+        position: relative;
+        font-size: 1.1em;
+        bottom: 200px;
+        padding: 0 20px ;
+        padding-right: 50px;
+
+    }
+
+    .heroinfo p span {
+        color: var(--secondary-color);
+    }
+
+    .btn {
+       position: absolute;
+       left: 20px;
+       border: none;
+       font-size: 1.5em;
+       bottom: -470px;
+       text-align: center;
+       padding: 18px 40px;
+       text-transform: capitalize;
+       color: var(--background-color);
+       background-color:var(--secondary-color);
+       
+
+    }
+
+} 
+
+
+
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) { 
+
+   
+       .hero h1 {
+        
+           font-size: 1.4em; 
+           padding: 30px 0  0 20px;
+           font-family: var(--body-font);
+           
+       }
+   
+       .heart {
+           fill: var(--secondary-color);
+           position:relative;
+           height: 1em;
+           width:1em;
+           top: 3px;
+       }
+   
+       .gillian {
+
+           position: relative;
+           bottom: 90px;
+           padding: 0 0 0 20px;
+           height: 24em;
+           width: 30em;
+           
+       }
+   
+       .heroinfo p {
+           
+           position: relative;
+           font-size: 1.1em;
+           bottom: 180px;
+           padding: 0 20px ;
+           padding-right: 90px;
+   
+       }
+   
+       .heroinfo p span {
+           color: var(--secondary-color);
+       }
+   
+       .btn {
+          position: absolute;
+          left: 20px;
+          border: none;
+          font-size: 1.5em;
+          bottom: -500px;
+          text-align: center;
+          padding: 18px 40px;
+          text-transform: capitalize;
+          color: var(--background-color);
+          background-color:var(--secondary-color);
+          
+   
+       }
+   
+} 
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+
+
+.row{
+
+    display: flex;
+    background-color: aqua;
+
+}
+
+.hero_image{
+
+    flex:50%;
+}
+
+.hero {
+    flex:50%
+}
+
+
+
+} 
+
+}

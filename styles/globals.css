@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&display=swap');z
+a , li {
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+        /* color */
+  --background-color: #F5F3E6 ;
+  --primary-color: #444341;
+  --secondary-color: #935F46;
+  --illustration-color: #D0B5A4;
+
+  /* font */
+  --header-font:'Open Sans', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+h1, h3 {
+  font-family: var(--header-font);
+}

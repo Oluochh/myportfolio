@@ -1,0 +1,113 @@
+@media only screen {
+
+
+    .sv_card {
+        background-color: var(--primary-color);
+        padding: 20px; 
+        border-radius: 20px;
+        margin: 20px 0;
+        width: 300px;
+        
+    }
+    
+    .sv_card {
+        color: var(--background-color);
+    
+    }
+    
+
+    .sv_card h3{
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      padding: 10px 0;
+          
+    }
+    
+    .sv_card p {
+
+        font-size: 0.8rem;
+        
+    }
+        
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+    .sv_card {
+        background-color: var(--primary-color);
+        padding: 20px; 
+        border-radius: 20px;
+        margin: 50px 0 0 15px ;
+        width: 230px;
+        height: 230px;
+        
+    }
+    
+    .sv_card {
+        color: var(--background-color);
+    
+    }
+    
+
+    .sv_card h3{
+      font-size: 1rem;
+      text-transform: capitalize;
+      padding: 10px 0;
+          
+    }
+    
+    .sv_card p {
+
+        font-size: 0.6em;
+        
+    }
+        
+
+
+}
+
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) { 
+
+
+    
+    .sv_card {
+        background-color: var(--primary-color);
+        padding: 20px; 
+        border-radius: 20px;
+        margin: 100px 0 0 20px ;
+        width: 350px;
+        height: 300px;
+        
+    }
+
+    
+    .sv_card {
+        color: var(--background-color);
+    
+    }
+    
+    .sv_card:hover {
+
+            box-shadow: 4px 8px 12px 0 rgba(0,0,0,0.3);
+            cursor: pointer;
+            transform: translatey(-4px);
+        }
+
+        
+    .sv_card h3{
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      padding: 10px 0;
+          
+    }
+    
+    .sv_card p {
+
+        font-size: 1em;
+        
+    }
+        
+
+}

@@ -1,0 +1,231 @@
+@media only screen {
+
+    .abt {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+
+    .abt {
+        background-color: var(--primary-color);
+    }
+    
+    .abtInfo{
+        padding-top: 50px;
+        display: grid;
+        place-items: center;
+        color: var(--background-color);
+    }
+   
+    .abtInfo h1  {
+        padding: 20px 28px;
+        text-align: center;
+    }
+
+    .abtInfo p  {
+
+        padding: 20px 28px;
+    
+    }
+}
+
+
+@media only screen and (max-width: 40em) { 
+    
+    .abt {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+    }
+
+    .abt {
+        background-color: var(--primary-color);
+    }
+    
+    .abtInfo{
+        padding-top: 50px;
+        display: grid;
+        place-items: center;
+        color: var(--background-color);
+    }
+   
+    .abtInfo h1  {
+        padding: 20px 28px;
+        text-align: center;
+    }
+
+    .abtInfo p  {
+
+        padding: 20px 28px;
+    
+    }
+
+
+}
+
+
+    /* Medium screens - TABLET */
+    @media only screen and (min-width: 40.063em) { 
+
+
+    .illustration {
+
+        width: 90%;
+    }
+
+
+    .abtInfo h1 {
+
+    position: absolute;
+    font-size: 1.2rem;
+    left: 500px;
+    top:270px;
+
+}
+
+.p1 {
+
+    position: absolute;
+    font-size: 0.8rem;
+    left: 500px;
+    top:310px;
+}
+
+.p2 {
+
+    position: absolute;
+    margin-left: 300px;
+    font-size: 0.8rem;
+    top:390px;
+    
+
+    }
+
+}
+
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+        .illustration {
+
+            width: 90%;
+        }
+    
+    
+    .abtInfo h1 {
+    
+        position: absolute;
+        font-size: 1.2rem;
+        left: 680px;
+        top:340px;
+    
+    }
+    
+    .p1 {
+    
+        position: absolute;
+        font-size: 0.8rem;
+        left: 680px;
+        top:370px;
+    }
+    
+    .p2 {
+    
+        position: absolute;
+        margin-left: 680px;
+        font-size: 0.8rem;
+        top:430px;
+        
+    }
+}
+
+
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) {
+
+   
+    .illustration {
+
+        width: 90%;
+    }
+
+
+.abtInfo h1 {
+
+    position: absolute;
+    font-size: 1.2rem;
+    left: 500px;
+    top:290px;
+
+}
+
+.p1 {
+
+    position: absolute;
+    font-size: 0.8rem;
+    left: 500px;
+    top:320px;
+}
+
+.p2 {
+
+    position: absolute;
+    margin-left: 270px;
+    font-size: 0.8rem;
+    top:390px;
+    
+}
+
+ }
+
+ @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+
+
+
+
+    .illustration {
+
+        width: 85%;
+    }
+
+
+    .abtInfo h1 {
+
+    position: absolute;
+    font-size:2rem;
+    left:820px;
+    top:460px;
+
+}
+
+.p1 {
+
+    position: absolute;
+    font-size: 1.2rem;
+    left: 820px;
+    top:500px;
+}
+
+.p2 {
+
+    position: absolute;
+    font-size: 1.2rem;
+    margin-left: 560px;
+    top:590px;
+    
+}
+
+
+ }
+ 

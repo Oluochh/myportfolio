@@ -1,0 +1,78 @@
+@media only screen {
+
+
+    
+.sv_card {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.sv_card h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sv_card h1 span {
+    text-transform: capitalize;
+}
+
+.p {
+    text-align: center;
+    padding:  10px 20px; 
+}
+}
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+    .rowCard {
+
+        display: flex;
+        
+    }    
+
+    .sv_card h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .sv_card h1 span {
+        text-transform: capitalize;
+    }
+    
+    .p {
+        text-align: center;
+        margin: 10px 0;
+        padding:0 10px ;
+    }
+
+}
+
+
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) {
+
+
+    .rowCard {
+
+        display: flex;
+        
+    } 
+    
+   
+
+
+    .sv_card h1 {
+        font-size: 3em;
+    }
+
+    .p {
+       font-size:1.3rem;
+    }
+
+ }
